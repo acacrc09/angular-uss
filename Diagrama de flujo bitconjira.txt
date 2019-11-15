@@ -1,0 +1,17 @@
+
+
+error 403 tener permisos de administrador para poder realizar un pull o push (escritura y lectura)
+
+
+ Diagrama de flujo integración confluence jira software y bitbucket
+
+- Anotar requerimiento en confluence en un espacio
+- integrar jira con bitbucket
+- Crear un proyecto en jira de preferencia scrum
+- Crear incidencias en proyecto de jira
+- Dentro de incidencia crear ramas hacia un repositorio en bitbucket
+- Una vez que se encuentre creada una rama en el repositorio realizar un clon del repositorio aun repositorio local. (ejemplo: git clone https://ECtsoft_bch@bitbucket.org/fuentesnicolas/uss.git)
+- Crear un commit inicial con la clave del proyecto y el numero de la incidencia de jira, para asi generar una trasabilidad entre los cambios en bitbucket con jira. Cada vez que se realize un commit especificar clave del proyecto y numero de incidencia. (ejemplo: "USS-1 mensaje"). 
+- De preferencia dirigirse a bitbucket , hacer un click en anotaciones en donde se podrá visualizar el codigo de proyecto asociado a jira, hacer un clik en mensaje para visualizar el proyecto de jira a traves de bitbucket, con esto se podrá realizar diversos cambios (adjuntar archivos, escribir comentarios, cambiar nivel de prioridad, vincular con un espacio en confluence, crear subtareas, cambir el responsable, etc).
+
+

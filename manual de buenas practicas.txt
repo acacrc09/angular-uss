@@ -1,0 +1,16 @@
+manual de buenas practicas
+
+- tener una carpeta local asociada a un solo repositorio de la nube (sea bitbuclet server o cloud)
+- poner la clave del proyecto y numero de incidencia en git para generar un tracking y/o seguimiento en bitbucket y en jira.
+- numero de incidiencia y clave exacta para escribirla en el git, cada vez que se quiera actualizar, de esa forma se vera el registro de las confirmaciones en jira.
+- al momento de nombrar una rama se debe escribir sin espacios.
+- Incluya la clave de problema en el nombre de la rama cuando cree la rama.
+- Si crea la rama desde el panel Desarrollo en un problema de Jira, la clave del problema se agrega automáticamente.
+ Por ejemplo, si nombra a su rama "TIS-2_feature", el problema TIS-2 en Jira pasará automáticamente de 'Tareas pendientes' a 'En progreso'. (Tenga en cuenta que Git no permite espacios en los nombres de las ramas).
+- Se confirma  que al momento de hacer un commit y no se especifica el nombre de la incidencia vinculada no se refleja la confirmación en jira.
+- como buena practica y se habia mencionado es de suma importancia que cada vez que inicie un commit una actulizacion se debe escribir la clave de proyecto en jira con bitbucket junto con el numero de incidencia por ejemplo uss-1, de esta forma nos permite
+en bitbucket generar cambios en las transiciones de jira, haciendo click en anotaciones, haciendo click en mensaje y en el codigo de jira vinculado, esto abrirá la pantalla del proyecto en jira estando dentro de bitbucket, se hace click en status y cambiamos el estado de flujo que se requiera, dentro de la ventana se pueden hacer diversos cambios ( adjuntar documentos, realizar comentarios, vincular espacios de confluence dentro jira  a traves de bitbucket)
+
+
+Conjunto de jobs pequeños que se ejecutan para deployar o generar cambios en un software ( o prueba automatica) a traves de una integración continua de una serie de herramientas o programas.
+
